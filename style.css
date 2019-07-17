@@ -1,0 +1,459 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+/* header */
+#logo{
+    width: 50px;
+  }
+
+  body{
+
+    margin: 0;
+    
+   
+padding: 0px;
+
+  }
+
+  .menu{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    
+  }
+
+  header{
+    display: flex;
+    /*height:100px;*/
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 0;
+    
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: rosybrown;
+    padding: 0px;
+    text-justify:justify;
+  
+  }
+
+ 
+  li{
+      list-style-type: none;
+      cursor: pointer;
+      }
+     
+  .menu-3:hover .card3{
+    
+      display: block;
+      flex-direction: column;
+      position: absolute;
+      background: white;
+     /* height: 100%;
+      width: 100%;*/
+     }
+     .card3{  
+        transition: all 3s linear;
+        display: none;
+        
+        padding: 10px;
+       align-items: flex-start;
+   /* border:solid;*/
+   margin-left: -350px;
+    height: fit-content;
+    
+    }  
+    
+   .partie{
+       
+        display: flex;
+        justify-content: space-between;
+      flex-direction: row;
+      align-items: flex-start;
+     padding: 10px;
+     
+   /* height: 500px;*/
+
+      }
+      .div{
+        
+        display: flex;
+        justify-content: space-around;
+      
+     
+      }
+      .btn-2{
+        padding: 10px 20px ;
+        background: green;
+        color: azure;
+        border: white solid 2px;
+        cursor: pointer;
+        transition: all 1s linear 
+      }
+      .btn-2:hover{
+        background:rgb(255, 255, 255) ;
+       /* color: rgb(236, 81, 81);*/
+        border: rgb(252, 81, 81) solid 2px;
+      }
+
+
+
+    .btn{
+        padding: 10px 20px ;
+        background: lightgray;
+        color: black;
+        border: white solid 2px;
+        cursor: pointer;
+        transition: all 1s linear 
+      }
+      .btn:hover{
+        background:rgb(255, 255, 255) ;
+       /* color: rgb(236, 81, 81);*/
+        border: rgb(252, 81, 81) solid 2px;
+      }
+
+
+      .btn-1{
+        padding: 10px 20px ;
+        background: lightskyblue;
+        color: black;
+        border: white solid 2px;
+        cursor: pointer;
+        transition: all 1s linear 
+      }
+      .btn-1:hover{
+        background:rgb(255, 255, 255) ;
+       /* color: rgb(236, 81, 81);*/
+        border: rgb(252, 81, 81) solid 2px;
+      }
+
+
+
+
+      .shadow{cursor: pointer;}
+      .shadow:hover{box-shadow: -9px 4px 34px -17px rgba(0,0,0,0.75);
+      }
+
+
+      .btn-3{
+        padding: 10px 20px ;
+        background: lightskyblue;
+        color:white;
+        border: white solid 2px;
+        cursor: pointer;
+        transition: all 1s linear 
+      }
+      .btn-3:hover{
+        background:rgb(255, 255, 255) ;
+       /* color: rgb(236, 81, 81);*/
+        border: rgb(252, 81, 81) solid 2px;
+      }
+
+      .btn-4{
+        padding: 10px 20px ;
+        background: orange;
+        color:white;
+        border: white solid 2px;
+        cursor: pointer;
+        transition: all 1s linear 
+      }
+      .btn-4:hover{
+        background:rgb(255, 255, 255) ;
+       /* color: rgb(236, 81, 81);*/
+        border: rgb(252, 81, 81) solid 2px;
+      }
+
+
+#logo1{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 250px;
+
+
+}
+
+
+
+
+p{
+    float: left;
+display: flex;
+justify-content: space-around;
+
+
+
+}
+
+.btn-video{
+    padding: 10px 20px ;
+    background: lightgray;
+    color: black;
+    border: white solid 2px;
+    cursor: pointer;
+    transition: all 1s linear 
+  }
+  .btn-video:hover{
+    background:rgb(255, 255, 255) ;
+   /* color: rgb(236, 81, 81);*/
+    border: rgb(252, 81, 81) solid 2px;
+  }
+
+
+
+  /* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-height: 50%;
+  
+    width:580px;
+    height: 53%;
+    margin:0;
+    padding: 50px;
+    display: flex;
+    text-align: justify;
+    justify-content: space-around;
+   margin-left: 600px;
+    
+  }
+
+  /* Add some content at the bottom of the video/page */
+.content {
+  
+    bottom: 0;
+    background: rosybrown;
+    color: #f1f1f1;
+  
+   
+  }
+
+  
+
+  header{
+   
+background: rosybrown;
+
+  }
+#body-content
+{
+
+  background-color: rosybrown;
+  margin: 0px;
+  padding: 0px;
+overflow: hidden;
+
+}
+
+.h1-vid{
+  font-family: 'Maven Pro', sans-serif;
+display: flex;
+justify-content: space-around;
+text-align: center;
+font: 20px ;
+font-weight: bold;
+color: black;
+
+}
+
+.overlay {
+ margin: 50px;
+ padding: 250px;
+  
+ width: 50%;
+ height: 50%;
+}
+
+
+      .btn-5{
+        padding: 10px 20px ;
+        border-radius: 2px;
+        color:white;
+        border: white solid 2px;
+        cursor: pointer;
+        transition: all 1s linear ;
+
+padding: 15px 32px;
+        display:inline-block;
+        width: 150px;
+        
+      }
+      .btn-5:hover{
+        background:rgb(255, 255, 255) ;
+       /* color: rgb(236, 81, 81);*/
+        border: rgb(252, 81, 81) solid 2px;
+      }
+
+      #banniere{
+        
+        overflow: hidden;
+        display:flex;
+        justify-content:space-around;
+       
+       width: 100%;
+        
+    
+      }
+
+      #banniere>.banniere1{
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+        background-color: darkgoldenrod;
+        
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+      
+       
+        
+      
+          }
+
+          
+
+          #banniere> .banniere2{
+
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+            background-color: lightseagreen;
+          
+            display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+       
+        
+          }
+          
+          #banniere> .banniere3{
+
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+            background-color: cornflowerblue;
+          
+            display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+       
+          }
+          
+
+          .card{
+            
+            width: 100%; 
+           
+            padding: 20px;
+          
+          
+          
+          
+          }
+
+          #banniere-card{
+
+display: flex;    
+
+justify-content: center;
+margin-left: -100px;
+padding: 0;
+
+
+
+flex-wrap: wrap;
+
+          }
+
+.div-card{
+padding: 80px;
+
+width: 55%;
+height: 120px;
+margin: 50px;
+text-align: left;
+
+padding-top: 10px;
+padding-right: 30px;
+padding-bottom: 80px;
+padding-left: 80px;
+
+
+
+
+}
+
+
+
+         .images{
+
+width: 150px;
+height: 100px;
+
+
+         }
+
+         .par{
+             
+          color: gray;
+
+
+         }
+
+         .part{
+           display: flex;
+           justify-content: center;
+           padding: 50px;
+            
+
+         }
+
+
+         .a-img{
+
+width: 350px;
+
+
+         }
+
+         .final{
+
+display: flex;
+justify-content: space-around;
+padding: 50px;
+font-size: 16px
+         }
+
+
+
+         .footer1{
+
+display:flex;
+justify-content: center;
+background: rgba(245, 241, 241, 0.938);
+
+         }
+
+
+         .footer2{
+
+          display: flex;
+          justify-content: space-around;
+          background: gray;
+          color: white;
+
+
+
+         }
+         .pg{
+
+
+
+          display: flex;
+          justify-content: center;
+          background: gray;
+          color: lightgray;
+
+         }
